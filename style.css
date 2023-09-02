@@ -1,0 +1,319 @@
+#accImg {
+    border-radius: 50%;
+}
+
+#secBtn {
+    font-weight: 400;
+}
+
+.img-fluid {
+    width: 100%;
+}
+
+#youSearText {
+    word-break: keep-all;
+}
+
+@media all and (max-width: 767px) {
+
+    #youIcon {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    #youText {
+        font-size: 1.5rem;
+    }
+
+    #searDiv {
+        display: none;
+    }
+
+    #exSearDiv {
+        display: none;
+    }
+
+    #iconDiv {
+        width: 50%;
+    }
+
+    .icons {
+        font-size: 1rem;
+    }
+
+    #accImg {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    #botIconDesk {
+        display: none;
+    }
+
+    #mainSecDiv {
+        margin-bottom: 3.5rem;
+    }
+
+    #secBtn {
+        font-size: 1rem;
+    }
+
+    #secDiv:nth-child(6), #secDiv:nth-child(7), #secDiv:nth-child(8), #secDiv:nth-child(9) {
+        display: none;
+    }
+
+    #videoDiv {
+        padding: 0;
+    }
+
+    #vidImg {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .card-title {
+        font-size: 0.75rem;
+    }
+
+    .card-text {
+        font-size: 0.5rem;
+    }
+
+    #card-icon {
+        font-size: 1rem;
+    }
+
+    #bottomIcon {
+        font-size: 1rem;
+    }
+
+    #searField {
+        font-size: 0.75rem;
+    }
+
+    #youSearText {
+        font-size: 0.75rem;
+    }
+
+    .seaImg {
+        height: 2rem;
+        width: 3.5rem;
+    }
+}
+
+
+
+
+
+
+@media all and (min-width: 768px) and (max-width: 1023px) {
+
+    #youIcon {
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+
+    #youText {
+        font-size: 2.5rem;
+    }
+
+    #searDiv {
+        display: none;
+    }
+
+    #exSearDiv {
+        display: none;
+    }
+
+    #searField {
+        width: 30rem;
+        font-size: 1rem;
+    }
+
+    #iconDiv {
+        width: 50%;
+    }
+
+    .icons {
+        font-size: 1.5rem;
+    }
+
+    #accImg {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    #botIconDesk {
+        display: none;
+    }
+
+    #mainSecDiv {
+        margin-bottom: 5.5rem;
+    }
+
+    #secBtn {
+        font-size: 1.5rem;
+    }
+
+    #secDiv:nth-child(8), #secDiv:nth-child(9) {
+        display: none;
+    }
+
+    #videoDiv {
+        padding: 0;
+    }
+
+    .img-fluid {
+        height: 5rem;
+    }
+
+    #vidImg {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .card-title {
+        font-size: 1rem;
+    }
+
+    .card-text {
+        font-size: 0.75rem;
+    }
+
+    #card-icon {
+        font-size: 1.5rem;
+    }
+
+    #bottomIcon {
+        font-size: 1.5rem;
+    }
+
+    .seaImg {
+        height: 3rem;
+        width: 4.5rem;
+    }
+
+    #youSearText {
+        font-size: 1rem;
+    }
+}
+
+
+
+
+
+
+@media all and (min-width: 1024px) {
+
+    body {
+        position: fixed;
+    }
+
+    #youIcon {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    #youText {
+        font-size: 1.5rem;
+    }
+
+    #exSearDiv {
+        display: none;
+    }
+
+    #searDiv {
+        width: 40rem;
+    }
+
+    #searFieldBig {
+        outline: none;
+        font-size: 1rem;
+    }
+
+    #searBtn {
+        font-size: 1.25rem;
+        font-weight: bold;
+    }
+
+    #seaIcon {
+        display: none;
+    }
+
+    #iconDiv {
+        width: 12.5rem;
+    }
+
+    .icons {
+        font-size: 1.25rem;
+    }
+
+    #accImg {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    #botIconMob {
+        display: none;
+    }
+
+    #botIconDesk {
+        width: 20%;
+        height: 100vh;
+        overflow-y: auto;
+    }
+
+    #mainSecDiv {
+        width: 80%;
+        height: 100vh;
+        overflow-y: auto;
+    }
+
+    #secDiv:nth-child(1) {
+        display: none;
+    }
+
+    #mainDiv {
+        display: flex;
+    }
+
+    #secBtn {
+        font-size: 1.25rem;
+    }
+
+    .sidText {
+        font-size: 1rem;
+    }
+
+    #videoDiv {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 1rem;
+        padding: 1rem;
+    }
+
+    .img-fluid {
+        border-radius: 1rem;
+    }
+
+    #vidImg {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .card-title {
+        font-size: 1rem;
+    }
+
+    .card-text {
+        font-size: 0.75rem;
+    }
+
+    #card-icon {
+        display: none;
+    }
+
+    #subText {
+        font-size: 1.25rem;
+    }
+}
